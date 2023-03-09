@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+#logo-text {
+    color: #F0FFFF;
+    font-size: 3vw;
+    font-family: 'Rampart One', cursive;
+}
+.nav-link {
+    color: #F0FFFF;
+    padding-left: 5px;
+}
+#geninfo-hover{
+    background-color:#041E42;
+    color:#F0FFFF;
+}
+
+.nav-link:hover {
+    background-color: #F0FFFF;
+    color: #041E42;
+    transition: 1s;
+}
+.dropdown-item {
+    color: #041E42;
+}
+.dropdown-item:hover {
+    background-color: #041E42;
+    color: #F0FFFF;
+    transition: 1s;
+}
+.fa-user {
+    color: #F0FFFF;
+}
+.fa-user:hover {
+    color: #041E42;
+    transition: 1s;
+}
+.container-fluid {
+    font-family: 'Roboto', sans-serif;
+}
+#geninfo {
+    color: #041E42;
+    font-size: 7vw;
+}
+#library-style {
+    color: #041E42;
+    font-size: 5vw;
+}
+#center-pic {
+    float:right;
+    height: 350px;
+    width:335px;
+    margin-left:10px;
+    box-shadow: 1rem 0 1rem 0 #041E42;
+}
+#center-pic-left {
+    float:left;
+    height: 350px;
+    width:335px;
+    margin-right:20px;
+    box-shadow: 1rem 0 1rem 0 #041E42;
+}
+.about-contents p {
+    text-align: justify;
+
+}
+.about-contents li {
+    text-align: justify;
+}
+#books{
+    background-color:#041E42;
+    color:#F0FFFF;
+    font-size:5vw;
+    text-align:center;
+    border-radius:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:100%;
+    margin-top:5px;
+}
+#row{
+    text-align:center;
+}
+.books-img{
+    width:100px;
+    height:150px;
+}
+.books-img:hover{
+    box-shadow:0 1rem 2rem 0 #041E42;
+    transition:1s;
+}
+.books-title{
+    margin-top:15px
+    margin-bottom:5px;
+    color:#041E42;
+    margin-top:10px;
+    text-decoration:none;
+}
+.books-title:hover{
+    text-decoration:underline;
+    transition:1s;
+}
+.footer {
+    margin-top: 5px;
+    background-color: #041E42;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #F0FFFF;
+    font-size: 2vw;
+    text-align: center;
+}
+.footer-contents-item-1 {
+    display: flex;
+    justify-content: center;
+}
+.footer-contents-item-1 p {
+    margin-right: 10px;
+}
+.footer-contents-item-2 {
+    display: flex;
+    justify-content: center;
+}
+.footer-contents-item-2 i {
+    margin-bottom: 15px;
+
+}
+.twitter {
+    margin-left: 30px;
+    margin-right: 30px;
+}
