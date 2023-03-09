@@ -50,6 +50,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .table{
     text-align:center;
 }
@@ -58,7 +59,14 @@
     color:#F0FFFF;
     margin-bottom:0px;
 }
-
+td:hover{
+    background-color:#041E42;
+    color:#F0FFFF;
+}
+.date-hover:hover{
+    background-color:#041E42;
+    color:#F0FFFF;
+}
 .bg-date{
     background-color:#041E42;
     color:#F0FFFF;
